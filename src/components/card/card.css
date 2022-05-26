@@ -1,0 +1,66 @@
+.card{
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: .75rem;
+    background-color: white;
+    height: 60%;
+    width: 14%;
+
+}
+
+.image{
+    border-radius: 0.75rem 0.75rem 0 0;
+    object-fit: cover;
+  
+}
+
+.img-container{
+    height: 70%;
+    width: 100%;
+    position: relative;
+ 
+}
+
+.info-container{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item{
+    width: 50%;
+    height: 25%;
+    margin: 0 auto;
+}
+
+.deleteButton, .editButton, .infoButton{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background: white;
+    border: transparent;
+    color: black;
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.deleteButton,.editButton,.infoButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.editButton{
+    top: 30%;
+}
+
+.infoButton{
+    top: 55%;
+}
